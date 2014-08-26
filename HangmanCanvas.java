@@ -58,31 +58,31 @@ public class HangmanCanvas extends GCanvas {
 			displayHead();
 			displayIncorrectLetter(letter);
 		}
-		if(Hangman.GUESSES_LEFT == 6) {
+		else if(Hangman.GUESSES_LEFT == 6) {
 			displayBody();
 			displayIncorrectLetter(letter);
 		}
-		if(Hangman.GUESSES_LEFT == 5) {
+		else if(Hangman.GUESSES_LEFT == 5) {
 			displayLeftArm();
 			displayIncorrectLetter(letter);
 		}
-		if(Hangman.GUESSES_LEFT == 4) {
+		else if(Hangman.GUESSES_LEFT == 4) {
 			displayRightArm();
 			displayIncorrectLetter(letter);
 		}
-		if(Hangman.GUESSES_LEFT == 3) {
+		else if(Hangman.GUESSES_LEFT == 3) {
 			displayLeftLeg();
 			displayIncorrectLetter(letter);
 		}
-		if(Hangman.GUESSES_LEFT == 2) {
+		else if(Hangman.GUESSES_LEFT == 2) {
 			displayRightLeg();
 			displayIncorrectLetter(letter);
 		}
-		if(Hangman.GUESSES_LEFT == 1) {
+		else if(Hangman.GUESSES_LEFT == 1) {
 			displayLeftFoot();
 			displayIncorrectLetter(letter);
 		}
-		if(Hangman.GUESSES_LEFT == 0) {
+		else if(Hangman.GUESSES_LEFT == 0) {
 			displayRightFoot();
 			displayIncorrectLetter(letter);
 		}
