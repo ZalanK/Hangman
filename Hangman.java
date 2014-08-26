@@ -50,7 +50,7 @@ public class Hangman extends ConsoleProgram{
 		 */
 		String str = ""; 
 	
-		for(int i = 0; i < word.length(); i++){
+		for(int i = 0; i < word.length(); i++) {
 			str = str + "-";
 		}
 		return(str);
