@@ -23,12 +23,12 @@ public class Hangman extends ConsoleProgram{
 		add(canvas);
 	}
 	
-	public void run(){
+	public void run() {
 		setup();
 		play();
 	}
 	
-	public void setup(){
+	public void setup() {
 		canvas.reset(); //The scaffold is added to the canvas.
 		welcomeMessage();
 	}
@@ -56,7 +56,7 @@ public class Hangman extends ConsoleProgram{
 		return(str);
 	}
 	
-	private void play(){
+	private void play() {
 		while(GUESSES_LEFT > 0) {
 			enterGuess();
 			checkIfGuessMatches();
